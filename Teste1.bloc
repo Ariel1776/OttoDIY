@@ -1,0 +1,27 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="otto_home" id="2#(r,rr[c?QxGUyM+VH:" x="9" y="75">
+    <next>
+      <block type="otto_move" id="#kGi/(Rn$Bv!|s=GwO1A">
+        <field name="otto_move_sens">FORWARD</field>
+        <field name="otto_move_speed">1000</field>
+        <next>
+          <block type="otto_sound" id="+zF,NW-#.I?WY6d$x@Ov">
+            <field name="otto_sound">S_cuddly</field>
+            <next>
+              <block type="otto_move" id="uv_fzDvZx+gdpL7m/26K">
+                <field name="otto_move_sens">BACKWARD</field>
+                <field name="otto_move_speed">1000</field>
+                <next>
+                  <block type="otto_sound" id="(P{%8i!qw).;wRPI5d7n">
+                    <field name="otto_sound">S_sleeping</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
